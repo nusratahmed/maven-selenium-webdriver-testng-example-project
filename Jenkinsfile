@@ -1,7 +1,7 @@
 node {
 stage('SCM Checkout')
 {
-git 'https://github.com/tejasrik/e2e.git'
+git 'https://github.com/tejasrikaratam/maven-selenium-webdriver-testng-example-project'
 }
  stage('Compile-Package'){
       // Get maven home path
