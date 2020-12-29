@@ -7,7 +7,7 @@ git 'https://github.com/tejasrikaratam/maven-selenium-webdriver-testng-example-p
       // Get maven home path
      //def mvnHome =  tool name: 'maven3.s6.3', type: 'maven' 
      //batlabel "${mvnHome}/bin/mvn package"
-  // bat "${mvnHome}/bin/mvn clean package"
+  // bat "${mvnHome}/bin/mvn clevan package"
  // bat label: '', script: "${mvnHome}/bin/mvn clean packagec"
          def mavenHome = tool name:"Maven-3.6.3",type: "maven"
          
